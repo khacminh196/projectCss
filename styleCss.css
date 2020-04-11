@@ -1,0 +1,224 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.container {
+	padding: 0px 100px;
+}
+		
+			/*HEADER*/
+
+.tong-quan {
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.search select, input {
+	height: 40px;
+	font-size: 18px;
+}
+
+.search select {
+	width: 100px;
+}
+
+.search input {
+	width: 300px;
+	position: relative;
+}
+
+.search i{
+	position: absolute;
+	right: 420px;
+	top: 30px;
+}
+
+i {
+	color: white;
+}
+.header-menu {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+	background-color: #222;
+	color: white;
+	font-weight: 500;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+}
+
+.menu1 {
+	margin-left: -11px; 
+	width: 180px;
+	height: 80px;
+	padding-left: 25px;
+	line-height: 80px;
+	background-color: red;
+}
+
+
+.menu2 {
+	position: relative;
+} 
+
+.menu2 .mini-menu {
+	list-style-type: none;
+}
+
+.menu2 .mini-menu > li {
+	text-decoration: none;
+	float: left;
+	margin-right: 60px;
+	display: block;
+	height: 80px;
+	line-height: 80px;
+}
+
+.sub-menu {
+	position: absolute;
+	background-color: #222;
+	width: 150px;
+	height: 200px;
+	top: 49px;
+	display: none;
+	list-style-type: none;
+	transition: all 1s;
+}
+
+.sub-menu li {
+	padding: 0px 100px;
+	height: 40px;
+}
+
+.mini-menu > li:hover {
+	color: red;
+	transition: 1s;
+}
+
+.mini-menu li:hover .sub-menu{
+	display: block;
+}
+
+.content-slide {
+	display: flex;
+}
+
+.menu-products {
+	width: 206px;
+	background-color: white;
+}
+
+.menu-products ul{
+	list-style-type: none;
+}
+
+.menu-products ul li {
+	position: relative;
+}
+.menu-products ul li a{
+	/*position: relative;*/
+	text-decoration: none;
+	color: #444;
+	font-weight: 500;
+	display: block;
+	height: 30px;
+	padding: 20px 10px 0px;
+	line-height: 30px;
+	border: 1px solid;
+}
+
+.menu-products-2 {
+	position: absolute;
+	left: 206px;
+	border: 1px solid;
+	top: 0px;
+	width: 200px;
+	display: none;
+	transition: all 1s;
+	z-index: 2;
+	background: linear-gradient(to top, #A0E8AF, #86BAA1);
+}
+
+.menu-products-2 li {
+	display: block;
+	height: 30px;
+	padding: 20px 10px 0px;
+	border: 1px solid;
+}
+
+.menu-products li:hover .menu-products-2{
+	display: block;
+}
+
+.slide {
+	width: 825px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.slide-1 {
+	width: 9999px;
+}
+
+.slide:hover i {
+	display: block;
+}
+
+.slide-img {
+	float: left;
+}
+
+.slide i {
+	position: absolute;
+	top:200px;
+	color: #333;
+	display: none;
+	transition: all 1s;
+}
+
+.slide #i-left {
+	left: 20px;
+}
+
+.slide #i-right {
+	right: 20px;
+}
+
+	/*END HEADER*/
+
+.content {
+	width: 100%;
+	height: 600px;
+	background-color: #DDD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
