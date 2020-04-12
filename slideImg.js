@@ -10,7 +10,7 @@
 
 		prev.addEventListener('click', () => {
 			current -= size;
-			console.log(current);
+			// console.log(current);
 			if(current < 0) {
 				current = max;
 			}
@@ -21,7 +21,7 @@
 		next.addEventListener('click', nextImg);
 
 		function nextImg(){
-			console.log(current);
+			// console.log(current);
 			if(current < max) {
 				current += size;
 			} else {
