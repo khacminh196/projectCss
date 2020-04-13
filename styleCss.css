@@ -204,18 +204,12 @@ i {
 	right: 20px;
 }
 
-.content {
-	width: 100%;
-	height: 600px;
-	/*background-color: #DDD;*/
-}
-
 	/*Content Exclusive Products*/
 
 .exclusive-products {
 	margin: 100px 0px;
 	/*height: 200*/
-	border-bottom: 1px solid;
+	/*border-bottom: 1px solid;*/
 	border-color: #AAA;
 }
 
@@ -226,6 +220,8 @@ i {
 .exclusive-products-1 {
 	width: 100%;
 	display: flex;
+	border-bottom: 1px solid;
+	border-color: #AAA;
 }
 
 .product-type {
@@ -372,7 +368,7 @@ i {
 
 .div-sale-huge {
 	margin: 100px 0px;
-	border-bottom: 1px solid;
+	/*border-bottom: 1px solid;*/
 	padding-bottom: 50px;
 	border-color: #AAA;
 	display: flex;
@@ -410,64 +406,179 @@ i {
 
 	/*deal-of-the-days*/
 
+.deal-of-the-days-title {
+	display: flex;
+	border-bottom: 1px solid;
+	border-color: #AAA;
+	/*margin: 50px 0px;*/
+}
+
+.deal-of-the-days-title p {
+	margin-left: 600px;
+	font-size: 20px;
+	line-height: 50px;
+}
+
+.deal-of-the-days-title i {
+	color: red;
+	margin-right: 10px;
+}
+
+.deal-of-the-days-product {
+	display: flex;
+}
 
 
+	/*featured-products*/
 
+.products-content {
+	line-height: 50px;
+	border-bottom: 1px solid;
+	border-color: #AAA;
+}
 
+.products {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-wrap: wrap;
 
+}
 
+.products-container {
+	display: flex;
+	width: 300px;
+	height: 150px;
+	align-items: center;
+	border: 1px solid;
+	border-color: #CCC;
+	border-radius: 10px;
+	margin: 30px;
+}
 
-	/*div-sale-small*/
+.product-img {
+	padding: 0px 15px; 
+}
 
+.product-infomation {
+	padding-bottom: 10px;
+}
 
+.product-infomation p:first-child {
+	font-size: 18px;
+	font-weight: 500;
+}
 
+.product-infomation .p-money {
+	color: red;
+	font-size: 18px;
+}
 
+.btnAdd {
+	width: 120px;
+	height: 40px;
+	border-radius: 10px;
+	color: red;
+	background-color: white;
+	font-size: 18px;
+    border: 1px solid #FF324D;
+    /*color: #fff;*/
+    /*position: relative;*/
+    /*overflow: hidden;*/
+    /*z-index: 1;*/
+    transform: scale(0.9);
+    transition: all 0.5s;
+}
 
-
-
-	/*products*/
-
-
-
-
-
-
-
-
-
-
-
-
+.btnAdd:hover {
+	transform: scale(1);
+	background-color: red;
+	color: white;
+}
 
 	/*our-brands*/
+.our-brands .our-brands-title {
+	border-bottom: 1px solid;
+	border-color: #AAA;
+}
 
+.our-brands-title h1 {
+	line-height: 50px;
+}
 
+.our-brands-img {
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
 
+.our-brands-img img {
+	padding-right: 50px;
+	opacity: 0.7;
+	transition: all 0.5s;
+}
 
-
-
-
-
-
+.our-brands-img img:hover {
+	opacity: 1;
+}
 
 	/*subscribe*/
+.subscribe {
+	width: 100%;
+	height: 120px;
+	background-color: #222;
+	display: flex;
+	justify-content: space-around;
+	line-height: 120px;
+}
 
+.subscribe h1 {
+	color: white;
+}
 
+.subscribe input {
+	width: 300px;
+	height: 40px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.subscribe button {
+	height: 50px;
+}
 			/*FOOTER*/
+.footer-1 {
+	margin-top: 50px;
+	margin-left: 50px;
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr;
+}
 
+.footer-1 ul {
+	padding-top: 20px;
+	list-style-type: none;
+	font-weight: 500;
+	color: #666;
+}
 
+.footer p {
+	padding-top: 10px;
+	color: #666;
+	font-weight: 500;
+	padding-bottom: 5px;
+}
 
+.footer-1 ul li {
+	padding-bottom: 5px;
+}
+
+.footer-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-left: 50px;
+	margin-top: 50px;
+	border-top: 1px solid;
+	border-color: #AAA; 
+}
+
+.footer-2 div {
+	margin: 50px 30px 50px 0px;
+}
