@@ -213,7 +213,7 @@ i {
 	/*Content Exclusive Products*/
 
 .exclusive-products {
-	margin-top: 50px;
+	margin: 100px 0px;
 	/*height: 200*/
 	border-bottom: 1px solid;
 	border-color: #AAA;
@@ -370,10 +370,42 @@ i {
 
 	/*div-sale-huge*/
 
+.div-sale-huge {
+	margin: 100px 0px;
+	border-bottom: 1px solid;
+	padding-bottom: 50px;
+	border-color: #AAA;
+	display: flex;
+}
 
+.div-sale-huge-1 {
+	margin-right: 20px;
+}
 
+.div-sale-huge-1, .div-sale-huge-2 {
+	position: relative;
+	overflow: hidden;
+}
 
+.sale-content-1, .sale-content-2 {
+	position: absolute;
+	top: 120px;
+	right: 20px;
+	/*transform: scale(0);*/
+	transform: translate(180px);
+	opacity: 0;
+	transition: all 1s;
+}
 
+.div-sale-huge-1:hover .sale-content-1 {
+	transform: translate(0px);
+	opacity: 1;
+}
+
+.div-sale-huge-2:hover .sale-content-2 {
+	transform: translate(0px);
+	opacity: 1;
+}
 
 
 	/*deal-of-the-days*/
